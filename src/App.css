@@ -1,0 +1,111 @@
+.app {
+  height: 100vh;
+  background-color: hsl(27, 66%, 92%);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: inherit;
+}
+.wrapper {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  display: flex;
+  height: 100px;
+  width: 400px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 20px;
+}
+.balance {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 20px;
+}
+.mybalance {
+  color: whitesmoke;
+  font-size: 13px;
+  font-weight: 400;
+}
+.price {
+  color: whitesmoke;
+  margin-top: 15px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.circle {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 30px;
+}
+.fillcircle {
+  position: relative;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: hsl(25, 47%, 15%);
+  border: 2px solid hsl(25, 47%, 15%);
+}
+.hallowcircle {
+  position: absolute;
+  margin-right: 20px;
+  z-index: 1;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 2px solid whitesmoke;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  height: 370px;
+  width: 400px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+.mainContainer {
+  margin: 20px;
+}
+.seven {
+  color: hsl(25, 47%, 15%);
+}
+.chartDiv {
+  display: flex;
+  justify-content: center;
+}
+.bottom {
+  display: flex;
+}
+.monthly {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.total {
+  font-size: 13px;
+  color: rgb(143, 143, 143);
+}
+.profit {
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.monthlyPrice {
+  color: hsl(25, 47%, 15%);
+}
+.percentage {
+  color: hsl(25, 47%, 15%);
+  font-weight: 700;
+  text-align: right;
+}
+.lastmonth {
+  font-size: 13px;
+  color: rgb(143, 143, 143);
+}
